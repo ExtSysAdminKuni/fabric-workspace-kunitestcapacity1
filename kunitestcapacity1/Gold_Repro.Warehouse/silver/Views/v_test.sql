@@ -1,5 +1,5 @@
 -- Auto Generated (Do not modify) CD2FCB62F84DA2915124E33E40EC7A11C3E86CA35D6D83FD34874E4E574AAEF2
-CREATE VIEW [silver].[v_banner_location_repro]
+CREATE VIEW [silver].[v_test]
 AS
 WITH SourceData AS
 (
