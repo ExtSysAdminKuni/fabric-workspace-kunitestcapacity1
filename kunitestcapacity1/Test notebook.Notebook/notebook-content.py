@@ -49,3 +49,20 @@
 # META   "language": "sparksql",
 # META   "language_group": "synapse_pyspark"
 # META }
+
+# CELL ********************
+
+# MAGIC %%sql
+# MAGIC CREATE TABLE data_warehouse.banner_location_group
+# MAGIC (
+# MAGIC     banner_location_id INT,
+# MAGIC     silver_created_date TIMESTAMP,
+# MAGIC     group_name STRING
+# MAGIC );
+
+# METADATA ********************
+
+# META {
+# META   "language": "sparksql",
+# META   "language_group": "synapse_pyspark"
+# META }
