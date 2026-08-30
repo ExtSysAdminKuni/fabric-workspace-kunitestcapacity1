@@ -4,9 +4,7 @@ AS
 WITH SourceData AS
 (
     SELECT *
-    FROM[v_banner_location_reproData AS
- *
-anner_location] AS whbl
+    FROM [Silver_Repro].[data_warehouse].[banner_location] AS whbl
     LEFT JOIN [Silver_Repro].[data_warehouse].[banner_location_group] AS whblg
         ON whbl.banner_location_id = whblg.banner_location_id
 )
@@ -15,4 +13,3 @@ SELECT
     silver_created_date,
     source_modified_date
 FROM SourceData;
-GO
